@@ -23,3 +23,9 @@ Two elements make reinforcement learning powerful: the use of samples to optimiz
 * The only way to collect information about the environment is to interact with it.
 
 The first two of these problems could be considered planning problems (since some form of model is available), while the last one could be considered to be a genuine learning problem. However, reinforcement learning converts both planning problems to machine learning problems.
+
+## Open AI Gym
+
+Gym is a toolkit for developing and comparing reinforcement learning algorithms. It makes no assumptions about the structure of your agent, and is compatible with any numerical computation library, such as TensorFlow or Theano.
+
+The gym library is a collection of test problems — environments — that you can use to work out your reinforcement learning algorithms. These environments have a shared interface, allowing us to write general algorithms.
